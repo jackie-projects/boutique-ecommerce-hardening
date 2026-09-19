@@ -20,7 +20,7 @@ This project demonstrates **Right-Sized Security**: building a defense-in-depth 
 
 * **Access Layer (WordPress):**
   * Enforced the **Principle of Least Privilege (PoLP)** by removing default setups, creating a restricted "Shop Manager" role for daily operations, and isolating administrative duties.
-  * Hidden the staff login area behind a custom slug (`/testing-login-here`) while customers safely use native WooCommerce endpoints (`/my-account/`).
+  * Hidden the staff login area behind a custom slug (`/green-orange`) while customers safely use native WooCommerce endpoints (`/my-account/`).
   * Enabled mandatory **MFA (2FA)** for staff paired with offline single-use backup codes to mitigate lockout risks.
   * Configured backend IP tracking to read `CF-Connecting-IP` so local security plugins ban true malicious devices instead of Cloudflare proxy servers.
 

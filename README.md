@@ -18,7 +18,7 @@ This project demonstrates **Right-Sized Security**: building a defense-in-depth 
 
 * **Access Layer (WordPress):**
   * Enforced the **Principle of Least Privilege (PoLP)** by removing default setups, creating a restricted "Shop Manager" role for daily operations, and isolating administrative duties.
-  * Hidden the staff login area behind a custom slug (`/orange`) while customers safely use native WooCommerce endpoints (`/my-account/`).
+  * Hidden the staff login area behind a custom slug (`/testing-login-here`) while customers safely use native WooCommerce endpoints (`/my-account/`).
   * Enabled mandatory **MFA (2FA)** for staff paired with offline single-use backup codes to mitigate lockout risks.
   * Configured backend IP tracking to read `CF-Connecting-IP` so local security plugins ban true malicious devices instead of Cloudflare proxy servers.
 
@@ -76,3 +76,8 @@ To verify the deployment of the perimeter defenses, a simulated probing attack w
   <br>
   <i>Figure 6: Sampled network security logs verifying the immediate edge drop of the malicious /wp-login.php request at 17:02:31 CDT, accompanied by proper data redaction protocols.</i>
 </p>
+
+---
+### Ethical Constraints & Responsible Disclosure
+To preserve the active operational security of this live production environment, specific architectural metadata—including custom system pathway slugs and internal administrative IP addressing—has been selectively obfuscated within these artifacts. All testing vectors were restricted solely to owned and authorized network infrastructure.
+Use code with caution.Step 3: Complete the CommitOnce you have replaced the main text window content with the large template block above, scroll back down to the very bottom past that attachment box, click the green Commit changes... button, and click save.Let me know if the text and image links load properly on your GitHub repository homepage once you save it! If everything displays cleanly, would you like to practice a few technical interview questions a recruiter might ask you about these 6 specific screenshots?

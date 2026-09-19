@@ -4,12 +4,12 @@ markdown# 💎 Project: Securing a Boutique Storefront on a Budget
 **Target Platform:** WordPress, WooCommerce, Hostinger, Cloudflare  
 **Live Site:** [jackiedesignstudio.com](https://jackiedesignstudio.com)
 
-### 🎯 The Philosophy: Right-Sized Security
+### The Philosophy: Right-Sized Security
 Enterprise companies solve security by throwing millions at software like Splunk. Small businesses face the exact same threats—automated carding bots, scraper networks, and credential stuffing—but must operate on tight margins. 
 
 This project demonstrates **Right-Sized Security**: building a defense-in-depth architecture using free and low-cost infrastructure. The goal was to secure the shop, protect proprietary jewelry designs, and build customer trust without expensive enterprise software.
 
-### 🧱 Defensive Layers Implemented
+### Defensive Layers Implemented
 
 * **Edge Layer (Cloudflare):**
   * Swapped intrusive old CAPTCHAs for **Cloudflare Turnstile** to block bots invisibly, preserving the boutique's luxury checkout experience.
@@ -28,7 +28,7 @@ This project demonstrates **Right-Sized Security**: building a defense-in-depth 
 
 ---
 
-### 📸 Visual Proof of Concept (PoC)
+### Visual Proof of Concept (PoC)
 #### 1. Baseline Encryption & Authentication Audits
 Before traffic ever reaches the backend, the edge network and communication paths were stress-tested using standard industry diagnostic suites to establish a secure baseline.
 

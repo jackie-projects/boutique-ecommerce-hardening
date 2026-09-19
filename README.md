@@ -1,6 +1,7 @@
 # boutique-ecommerce-hardening
 A case study in hardening a live WooCommerce storefront using right-sized defense-in-depth security architectures
-markdown# 💎 Project: Securing a Boutique Storefront on a Budget
+
+Project: Securing a Boutique Storefront on a Budget
 **Target Platform:** WordPress, WooCommerce, Hostinger, Cloudflare  
 **Live Site:** [jackiedesignstudio.com](https://jackiedesignstudio.com)
 
